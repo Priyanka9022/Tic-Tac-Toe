@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="mainMenu.css">
+    <link rel="icon" type="image/x-icon" href="favicon_ttt.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap">
+    <title>Welcome to Priyanka Tic Tac Toe game!</title>
+</head>
+<body>
+    <!-- Game heading -->
+    <div id="name">
+        <h1>Tic-Tac Toe Game... </h1>
+    </div>
+
+    <!-- Game menu -->
+    <div id="menu">
+        <h2 class="menuContents"><a href="https://youtu.be/dQw4w9WgXcQ?si=n5-jCnyKCHAgpFRc" target="_blank" title="Welcome to my Tic Tac Toe game! Try to find the two easter eggs I've hidden in the game!">Main Menu</a></h2>
+        <a href="ttt.html"><button id="play" class="menuContents" title="Start the game">Play game</button></a>
+        <button id="toggleSoundEffects" class="menuContents" title="Turn sound effects on or off">Turn Sound Effects On</button>
+        <button id="toggleMusic" class="menuContents" title="Turn music on or off">Turn Music On</button> 
+    </div>
+
+    <!-- Animated bg -->
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <audio id="clickSound" src="sounds/btn_click.mp3" preload="auto"></audio>
+    <audio id="backgroundMusic" src="sounds/MainMenuBGM.mp3" loop preload="auto"></audio>
+
+    <script src="mm.js"></script>
+</body>
+</html>
