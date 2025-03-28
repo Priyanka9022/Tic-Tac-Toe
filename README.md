@@ -21,25 +21,6 @@ Welcome to the Tic Tac Toe game repository! This is a classic Tic Tac Toe game w
 - **Background Animation:** Includes a CSS animated background to add to playful theme a game requires.
 - **Responsive Design:** Works well on various devices with a responsive layout.
 
-## Getting Started
-
-To get started with the Tic Tac Toe game, follow these steps:
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/KrishnaPatil-19/TicTacToe
-
-2. **Navigate to the Project Directory:**
-
-    ```bash
-    cd TicTacToe
-
-3. **Open the Game:**
-    - Open [`index.html`](index.html) in your preferred web browser.
-
-## Usage
-
 ### Playing the Game
 - Click on the grid cells to  place your mark ('X' or 'O').
 - The game will automatically switch turns between players.
